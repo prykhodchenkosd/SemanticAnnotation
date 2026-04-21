@@ -1,0 +1,29 @@
+# Core Data Science
+numpy
+pandas
+scipy
+scikit-learn
+
+# NLP & Text Processing 
+nltk
+pymorphy3
+pymorphy3-dicts-uk
+
+# Machine Learning & Boosting
+xgboost
+
+# Deep Learning (BERT) 
+torch
+transformers
+accelerate
+
+#  Visualization
+matplotlib
+seaborn
+
+#  Interpretation
+shap
+
+#  Utilities
+tqdm
+stop-words
