@@ -342,13 +342,7 @@ plt.savefig(os.path.join(OUTPUT_DIR,"confusion_matrix.png"))
 
 
 # ---------------- Save model ----------------
-
 model_path = os.path.join(OUTPUT_DIR,"final_model")
-
 torch.save(model.state_dict(), os.path.join(model_path,"model.pt"))
-
 tokenizer.save_pretrained(model_path)
-
 print("Model saved to:", model_path)
-
-#Добавь в скрипт расчет qwk. И покажи qwk в итоговой таблице. Вывод таблиц в файл. дай полный итоговый скрипт с внесенными изменениями
